@@ -1,0 +1,36 @@
+#General build directories
+build/
+dist/
+
+#General Node.js and npm directories and files
+node_modules/
+.npm/
+npm-debug.log
+
+#.env files, no need it
+.env
+
+#OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+~*
+desktop.ini
+
+#For Netlify
+.netlify
+
+#Outputdirectories
+__diff_output__
+out/
+
+#Log files
+*.log
+*.log.*
+
+#ESLint, VS Code and package-lock.json files and directories
+.cache
+.eslintcache
+.vscode/
+package-lock.json
