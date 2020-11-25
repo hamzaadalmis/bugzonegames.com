@@ -16,4 +16,4 @@ Deployment maintained by Netlify. After pushing commitments to Repo, Netlify wil
 
 ## Last Things
 
-This website (and repo) maintained by hamzaadalmis(hamzaadalmis344@gmail.com). Repository is private.
+This website (and repo) maintained by hamzaadalmis(hamzadalmis344@gmail.com). Repository is private. BugZone Games is indie developer which was founded by Hamza Adalmis in 2015.

@@ -16,4 +16,3 @@ out/
 .eslintcache
 .vscode/
 package-lock.json
-gulpfile.js
