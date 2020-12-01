@@ -123,17 +123,21 @@ nav #img {
 }
 
 .badges {
-	display: inline;
+	display: flex;
+	flex-direction: row;
 }
 
-#galaxy-store {
-	max-width: 137px;
-	height: 100%;
+.badges-img {
+	height: 15vh;
+	width: 10vw;
+	flex-grow: 1;
 }
 
-#amazon-appstore {
-	max-width: 137px;
-	height: 100%;
+.badges-img img {
+	max-height: 100%;
+	min-width: 50%;
+	object-fit: fill;
+	vertical-align: middle;
 }
 
 #aboutus {
