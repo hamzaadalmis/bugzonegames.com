@@ -25,3 +25,4 @@ kidoz.net, 19692013, RESELLER
 lemmatechnologies.com, 362, RESELLER
 telaria.com, rwd19-1258254, RESELLER, 1a4e959a1b50034a
 tremorhub.com, rwd19-1258254, RESELLER, 1a4e959a1b50034a
+google.com, pub-9061538242433818, DIRECT, f08c47fec0942fa0
