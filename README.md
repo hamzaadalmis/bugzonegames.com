@@ -4,16 +4,12 @@
 
 ## What is this project?
 
-This project is bugzonegames.com website for purpose of using with Netlify. 
+This project is bugzonegames.com website for purpose of using with Netlify.
 
 ## Contributing
 
-We don't accept any contributing.
+We don't accept any contributing. This repository is just for archiving purposes.
 
 ## Deployment
 
-Deployment maintained by Netlify. After pushing commitments to Repo, Netlify will start build and deploy repo to host.
-
-## Last Things
-
-This website (and repo) maintained by hamzaadalmis(hamzadalmis344@gmail.com). Repository is private. BugZone Games is indie developer which was founded by Hamza Adalmis in 2015.
+Deployment maintained by Netlify. After pushing commitments to repository, Netlify will start build and deploy repository to host.
