@@ -306,11 +306,11 @@ footer a:hover {
 	text-indent: 1em
 }
 
-#email-link {
+#email-link, #website-link {
     color: var(--prm-txt-color);
 }
 
-#email-link:hover {
+#email-link:hover, #website-link:hover {
     color: var(--scn-txt-color);
 }
 
