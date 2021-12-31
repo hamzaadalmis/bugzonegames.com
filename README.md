@@ -1,4 +1,4 @@
-# [bugzonegames.com](https:/bugzonegames.com)
+# [bugzonegames.com](https://bugzonegames.com)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/89b6bba7-a11f-4e59-8d5b-9ff9ccfbd018/deploy-status)](https://app.netlify.com/sites/bugzonegames/deploys)
 
