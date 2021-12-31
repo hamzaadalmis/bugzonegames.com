@@ -3,32 +3,32 @@ const minifyHtml = require('gulp-html-minimizer');
 const minifyCss = require('gulp-cssnano');
 const minifyImg = require('gulp-imagemin');
 
-const FileCopier = () => {
+const fileCopier = () => {
     return src('./**')
     .pipe(dest('dist'));
 }
 
-const HTMLMinifier = () => {
+const htmlMinifier = () => {
     return src('./*.html')
     .pipe(minifyHtml({collapseWhitespace: true}))
     .pipe(dest('dist'));
 }
 
-const CSSMinifier = () => {
+const cssMinifier = () => {
     return src('./*.css')
     .pipe(minifyCss())
     .pipe(dest('dist'));
 }
 
-const IMGMinifier = () => {
+const imgMinifier = () => {
     return src('./img/**')
     .pipe(minifyImg())
     .pipe(dest('dist/img'));
 }
 
-exports.FileCopier = IMGMinifier;
-exports.HTMLMinifier = HTMLMinifier;
-exports.CSSMinifier = CSSMinifier;
-exports.IMGMinifier = IMGMinifier;
+exports.fileCopier = fileCopier;
+exports.htmlMinifier = htmlMinifier;
+exports.cssMinifier = cssMinifier;
+exports.imgMinifier = imgMinifier;
 
-exports.default = series(FileCopier, HTMLMinifier, CSSMinifier, IMGMinifier);
+exports.default = series(fileCopier, htmlMinifier, cssMinifier, imgMinifier);
