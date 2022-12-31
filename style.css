@@ -11,19 +11,19 @@
 * {
 	margin: 0;
 	padding: 0;
-	scroll-behavior: smooth
+	scroll-behavior: smooth;
 }
 
 body {
-	background-color: var(--ctn-bg-color)
+	background-color: var(--ctn-bg-color);
 }
 
 h1 {
-	font-size: 1.8em
+	font-size: 1.8em;
 }
 
 h2 {
-	font-size: 1.3em
+	font-size: 1.3em;
 }
 
 a,
@@ -32,15 +32,15 @@ h2,
 li,
 p {
 	color: var(--prm-txt-color);
-	font-family: var(--font)
+	font-family: var(--font);
 }
 
 a {
-	text-decoration: none
+	text-decoration: none;
 }
 
 ul {
-	list-style: none
+	list-style: none;
 }
 
 .container {
@@ -48,19 +48,19 @@ ul {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: var(--ctn-bg-color)
+	background-color: var(--ctn-bg-color);
 }
 
 nav #img {
 	max-width: 75%;
 	height: auto;
-	margin: 1em
+	margin: 1em;
 }
 
 .navbar {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly
+	justify-content: space-evenly;
 }
 
 .navbar>li {
@@ -69,53 +69,53 @@ nav #img {
 	font-weight: 400;
 	margin: .25em;
 	padding: .25em;
-	list-style: none
+	list-style: none;
 }
 
 .navbar>li a:hover {
 	color: var(--scn-txt-color);
-	transition-duration: .6s
+	transition-duration: .6s;
 }
 
 .navbar>li a:not(:hover) {
 	color: var(--prm-txt-color);
-	transition-duration: .7s
+	transition-duration: .7s;
 }
 
 .slider img {
 	max-width: 100%;
-	height: auto
+	height: auto;
 }
 
 #games {
-	padding: 1.5em
+	padding: 1.5em;
 }
 
 #games p {
-	line-height: 1.5em
+	line-height: 1.5em;
 }
 
 #games h1 {
-	margin-bottom: 1em
+	margin-bottom: 1em;
 }
 
 #games h2 {
-	margin-bottom: 1em
+	margin-bottom: 1em;
 }
 
 #games h2,
 #games h2 a {
-	color: var(--scn-txt-color)
+	color: var(--scn-txt-color);
 }
 
 #games h2 a:hover {
 	font-size: 2em;
-	transition-duration: .55s
+	transition-duration: .55s;
 }
 
 #games h2 a:not(:hover) {
 	font-size: 1.3em;
-	transition-duration: .65s
+	transition-duration: .65s;
 }
 
 #games img {
@@ -146,7 +146,7 @@ nav #img {
 }
 
 #aboutus {
-	margin-bottom: 1em
+	margin-bottom: 1em;
 }
 
 #aboutus h1 {
@@ -154,30 +154,30 @@ nav #img {
 }
 
 #aboutus p {
-	line-height: 1.5em
+	line-height: 1.5em;
 }
 
 footer {
 	background-color: var(--ctn-bg-color);
-	color: var(--scn-txt-color)
+	color: var(--scn-txt-color);
 }
 
 #contact h1 {
-	margin-top: .6em
+	margin-top: .6em;
 }
 
 form {
 	display: grid;
-	padding: .5em
+	padding: .5em;
 }
 
 label {
-	padding: 0 1em .5em 0
+	padding: 0 1em .5em 0;
 }
 
 input {
 	margin: 0 auto .75em;
-	padding: .6em
+	padding: .6em;
 }
 
 input,
@@ -189,7 +189,7 @@ textarea {
 	border-radius: 15px;
 	border: 2px solid var(--trd-txt-color);
 	min-width: 300px;
-	max-width: 380px
+	max-width: 380px;
 }
 
 textarea {
@@ -222,7 +222,7 @@ button {
 	margin: .65em auto .75em;
 	padding: .6em;
 	min-width: 75pt;
-	width: 10vw
+	width: 10vw;
 }
 
 button:hover {
@@ -232,25 +232,25 @@ button:hover {
 
 button:not(:hover) {
 	background-color: var(--scn-txt-color);
-	transition-duration: .4s
+	transition-duration: .4s;
 }
 
 button:active {
-	background-color: var(--trd-txt-color);;
-	transition-duration: .5s
+	background-color: var(--trd-txt-color);
+	transition-duration: .5s;
 }
 
 footer p {
-	order: -1
+	order: -1;
 }
 
 footer a,
 footer p {
-	color: var(--trd-txt-color)
+	color: var(--trd-txt-color);
 }
 
 footer a:hover {
-	text-decoration: underline
+	text-decoration: underline;
 }
 
 .links {
@@ -265,26 +265,24 @@ footer a:hover {
 	margin-bottom: 1.0em;
 }
 
-
-
 /* privacy-policy.html */
 
 #privacy-policy {
 	margin: 8px;
 	padding: 8px;
-	line-height: 2em
+	line-height: 2em;
 }
 
 #privacy-policy h1 {
-	padding: 1em
+	padding: 1em;
 }
 
 #privacy-policy h2 {
-	padding: .5em
+	padding: .5em;
 }
 
 #privacy-policy p {
-	text-indent: 1em
+	text-indent: 1em;
 }
 
 #email-link, #website-link {
@@ -295,48 +293,44 @@ footer a:hover {
     color: var(--scn-txt-color);
 }
 
-
-
 /* terms-and-conditions.html */
 
 #terms-and-conditions {
 	margin: 8px;
 	padding: 8px;
-	line-height: 2em
+	line-height: 2em;
 }
 
 #terms-and-conditions h1 {
-	padding: 1em
+	padding: 1em;
 }
 
 #terms-and-conditions h2 {
-	padding: .5em
+	padding: .5em;
 }
 
 #terms-and-conditions p {
-	text-indent: 1em
+	text-indent: 1em;
 }
-
-
 
 /* 404.html */
 
 .client-error-page {
 	font-size: 3em;
 	text-align: center;
-	margin: 30vh auto
+	margin: 30vh auto;
 }
 
 .client-error-page button {
 	min-width: 230px;
 	width: 20vw;
-	font-size: 1.15rem
+	font-size: 1.15rem;
 }
 
 .client-error-page a {
-	color: var(--ctn-bg-color)
+	color: var(--ctn-bg-color);
 }
 
 .client-error-page #msg {
-	font-size: 1em
+	font-size: 1em;
 }
