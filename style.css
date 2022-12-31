@@ -177,13 +177,13 @@ label {
 
 input {
 	margin: 0 auto .75em;
-	padding: .6em;
+	padding: 0.6em;
 }
 
 input,
 textarea {
 	font-family: var(--font);
-	font-size: 0.8em;
+	font-size: 0.8rem;
 	background-color: var(--ctn-bg-color);
 	color: var(--trd-txt-color);
 	border-radius: 15px;
@@ -196,22 +196,37 @@ textarea {
 	resize: none;
 	height: 10vh;
 	margin: 0 auto;
-	margin-top: .65em;
-	margin-bottom: .65em;
-	padding-top: .4em;
-	padding-left: .9em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
 	overflow: hidden;
 }
 
 textarea::placeholder {
 	font-family: var(--font);
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 
 input:focus,
 textarea:focus {
 	border: 2px solid var(--scn-txt-color);
 	outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid var(--scn-txt-color);
+  -webkit-text-fill-color: var(--trd-txt-color);
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0.01s;
 }
 
 button {
