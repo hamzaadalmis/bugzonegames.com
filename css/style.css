@@ -68,21 +68,24 @@ nav #img {
 
 .navbar>li {
 	flex: 1;
-	font-size: 1.4em;
-	font-weight: 400;
-	margin: .25em;
-	padding: .25em;
+    margin: 0.25em;
+	padding: 0.25em;
 	list-style: none;
 }
 
-.navbar>li a:hover {
+.btn {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.btn:hover {
 	color: var(--scd-txt-color);
-	transition-duration: .6s;
+	transition-duration: 0.65s;
 }
 
 .navbar>li a:not(:hover) {
 	color: var(--prm-txt-color);
-	transition-duration: .7s;
+	transition-duration: 0.85s;
 }
 
 .slider img {
@@ -156,7 +159,7 @@ label {
 }
 
 input {
-	margin: 0 auto .75em;
+	margin: 0 auto 0.75em;
 	padding: 0.6em;
 }
 
@@ -207,7 +210,7 @@ select:-webkit-autofill:focus {
   border: 1px solid var(--scd-txt-color);
   -webkit-text-fill-color: var(--trd-txt-color);
   -webkit-box-shadow: 0 0 0px 1000px #000 inset;
-  transition: background-color 5000s ease-in-out 0.01s;
+  transition: background-color 5000s ease-in-out 0.25s;
 }
 
 button {
@@ -215,20 +218,20 @@ button {
 	border-radius: 15px;
 	border: 0;
 	font-size: 1rem;
-	margin: .65em auto .75em;
-	padding: .6em;
+	margin: 0.65em auto 0.75em;
+	padding: 0.6em;
 	min-width: 75pt;
 	width: 10vw;
 }
 
 button:hover {
 	background-color: var(--fth-txt-color);
-	transition-duration: .6s;
+	transition-duration: 0.85s;
 }
 
 button:not(:hover) {
 	background-color: var(--scd-txt-color);
-	transition-duration: .4s;
+	transition-duration: 0.65s;
 }
 
 button:active {
