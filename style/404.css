@@ -1,0 +1,19 @@
+.client-error-page {
+	font-size: 3em;
+	text-align: center;
+	margin: 30vh auto;
+}
+
+.client-error-page button {
+	min-width: 230px;
+	width: 20vw;
+	font-size: 1.15rem;
+}
+
+.client-error-page a {
+	color: var(--ctn-bg-color);
+}
+
+.client-error-page #msg {
+	font-size: 1em;
+}

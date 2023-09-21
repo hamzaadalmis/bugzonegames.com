@@ -1,0 +1,17 @@
+#terms-and-conditions {
+	margin: 8px;
+	padding: 8px;
+	line-height: 2em;
+}
+
+#terms-and-conditions h1 {
+	padding: 1em;
+}
+
+#terms-and-conditions h2 {
+	padding: .5em;
+}
+
+#terms-and-conditions p {
+	text-indent: 1em;
+}
