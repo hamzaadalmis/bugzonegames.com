@@ -1,11 +1,11 @@
 {
   "name": "bugzonegames.com",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "bugzonegames.com website",
   "main": "script.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hamzaadalmis/bugzonegames.com.git"
+    "url": "git@github.com:hamzaadalmis/bugzonegames.com.git"
   },
   "license": "MIT",
   "author": "hamzaadalmis",
