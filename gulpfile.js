@@ -15,37 +15,43 @@ const copyFiles = () => {
 const minifyHtml = () => {
     return src('./*.html')
     .pipe(minifyHtml({collapseWhitespace: true}))
-    .pipe(dest('dist'));
+    .pipe(dest('dist/'));
 }
 
 const minifyCss = () => {
-    return src('./*.css')
+    return src('./style/*.css')
     .pipe(minifyCss())
-    .pipe(dest('dist'));
+    .pipe(dest('dist/style/'));
+}
+
+const minifyImg = () => {
+    return src('./img/*.webp')
+    .pipe(minifyImg())
+    .pipe(dest('dist/img/'));
 }
 
 const minifySvg = () => {
-    return src('./img/**')
+    return src('./img/*.svg')
     .pipe(minifyImg())
-    .pipe(dest('dist/img'));
+    .pipe(dest('dist/img/'));
 }
 
 const cleanCss = () => {
-    return src('./img/**')
+    return src('./dist/style/*.css')
     .pipe(minifyImg())
-    .pipe(dest('dist/img'));
+    .pipe(dest('dist/style/*.css'));
 }
 
 const uglify = () => {
-    return src('./img/**')
+    return src('./')
     .pipe(minifyImg())
-    .pipe(dest('dist/img'));
+    .pipe(dest('dist/'));
 }
 
 const obfuscate = () => {
-    return src('./img/**')
+    return src('./dist/')
     .pipe(minifyImg())
-    .pipe(dest('dist/img'));
+    .pipe(dest('dist/'));
 }
 
 exports.copyFiles = copyFiles;
