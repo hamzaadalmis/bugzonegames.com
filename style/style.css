@@ -5,6 +5,7 @@
 	--trd-txt-color: #a1a1a1;
 	--fth-txt-color: #d35304;
 	--bg-color: #171716;
+    --ctx-color: #2E2E2C;
 }
 
 * {
@@ -47,7 +48,7 @@ ul {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	background-color: var(--ctn-bg-color);
+	background-color: var(--ctx-color);
 }
 
 nav #img {
