@@ -4,7 +4,7 @@
 	--scd-txt-color: #fe6301;
 	--trd-txt-color: #a1a1a1;
 	--fth-txt-color: #d35304;
-	--ctn-bg-color: #171716;
+	--bg-color: #171716;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-	background-color: var(--ctn-bg-color);
+	background-color: var(--bg-color);
 }
 
 h1 {
