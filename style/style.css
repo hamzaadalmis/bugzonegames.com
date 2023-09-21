@@ -94,10 +94,6 @@ nav #img {
 	padding: 1.5em;
 }
 
-#games p {
-	line-height: 1.5em;
-}
-
 #games h1 {
 	margin-bottom: 1em;
 }
@@ -119,6 +115,10 @@ nav #img {
 #games h2 a:not(:hover) {
 	font-size: 1.3em;
 	transition-duration: .65s;
+}
+
+#games p {
+	line-height: 1.5em;
 }
 
 #games img {
