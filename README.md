@@ -12,4 +12,4 @@ We don't accept any contributing. This repository is just for archiving.
 
 ## Deployment
 
-Deployment maintained by Netlify. After pushing commitments to repository, Netlify will start build process and deploy repository to host machine.
+Deployment maintained by Netlify. After pushing commits to repository, Netlify will start build process and deploy repository to host machine.
