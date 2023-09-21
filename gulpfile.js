@@ -7,32 +7,54 @@ const cleanCss = require('gulp-clean-css');
 const uglifier = require('gulp-uglify');
 const obfuscator = require('gulp-obfuscate');
 
-const fileCopier = () => {
+const copyFiles = () => {
     return src('./**')
     .pipe(dest('dist/'));
 }
 
-const htmlMinifier = () => {
+const minifyHtml = () => {
     return src('./*.html')
     .pipe(minifyHtml({collapseWhitespace: true}))
     .pipe(dest('dist'));
 }
 
-const cssMinifier = () => {
+const minifyCss = () => {
     return src('./*.css')
     .pipe(minifyCss())
     .pipe(dest('dist'));
 }
 
-const imgMinifier = () => {
+const minifySvg = () => {
     return src('./img/**')
     .pipe(minifyImg())
     .pipe(dest('dist/img'));
 }
 
-exports.fileCopier = fileCopier;
-exports.htmlMinifier = htmlMinifier;
-exports.cssMinifier = cssMinifier;
-exports.imgMinifier = imgMinifier;
+const cleanCss = () => {
+    return src('./img/**')
+    .pipe(minifyImg())
+    .pipe(dest('dist/img'));
+}
 
-exports.default = series(fileCopier, htmlMinifier, cssMinifier, imgMinifier);
+const uglify = () => {
+    return src('./img/**')
+    .pipe(minifyImg())
+    .pipe(dest('dist/img'));
+}
+
+const obfuscate = () => {
+    return src('./img/**')
+    .pipe(minifyImg())
+    .pipe(dest('dist/img'));
+}
+
+exports.copyFiles = copyFiles;
+exports.minifyHtml = minifyHtml;
+exports.minifyCss = minifyCss;
+exports.minifyImg = minifyImg;
+exports.minifySvg = minifySvg;
+exports.cleanCss = cleanCss;
+exports.uglify = uglify;
+exports.obfuscate = obfuscate;
+
+exports.default = series(copyFiles, minifyHtml, minifyCss, minifyImg, minifySvg, cleanCss, uglify, obfuscate);
