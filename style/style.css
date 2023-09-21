@@ -17,6 +17,10 @@ body {
     color: var(--bg-color);
 }
 
+main {
+    min-width: 1024px;
+}
+
 h1 {
 	font-size: 1.8em;
 }
