@@ -22,11 +22,11 @@ main {
 }
 
 h1 {
-	font-size: 1.8em;
+	font-size: 3em;
 }
 
 h2 {
-	font-size: 1.3em;
+	font-size: 2.3em;
 }
 
 a,
@@ -101,21 +101,7 @@ nav #img {
 
 #games h2 {
 	margin-bottom: 1em;
-}
-
-#games h2,
-#games h2 a {
-	color: var(--scd-txt-color);
-}
-
-#games h2 a:hover {
-	font-size: 2em;
-	transition-duration: .55s;
-}
-
-#games h2 a:not(:hover) {
-	font-size: 1.3em;
-	transition-duration: .65s;
+    color: var(--scd-txt-color);
 }
 
 #games p {
@@ -125,7 +111,7 @@ nav #img {
 }
 
 #games img {
-	width: 25%;
+	width: 50%;
 	height: auto;
 	padding-bottom: 1em;
 }
