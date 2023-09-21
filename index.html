@@ -64,13 +64,15 @@
         <footer>
             <section id="contact">
                 <h1>CONTACT</h1>
-                <form name="contact" method="POST" netlify>
+                <form name="contact" method="POST" autocomplete="on" netlify>
                     <label for="name"></label>
-                    <input name="name" type="text" placeholder="Enter your name here..." required>
-                        <label for="email"></label> <input name="email"
-                        type="email" placeholder="example@example.com" required> <label for="message"></label><textarea
-                        name="message" type="text" placeholder="Enter your message here..." required></textarea> <button
-                        type="submit">Submit</button></form>
+                    <input id="name" name="name" type="text" placeholder="Enter your name here..." autocomplete="on" required>
+                    <label for="email"></label>
+                    <input id="email"name="email" type="email" placeholder="example@example.com" autocomplete="on" required>
+                    <label for="message"></label>
+                    <textarea id="message" name="message" type="text" placeholder="Enter your message here..." required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
             </section>
             <section class="links">
                 <a id="privacy-policy" href="privacy-policy.html">Privacy Policy</a>
