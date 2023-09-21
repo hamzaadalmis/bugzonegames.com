@@ -1,16 +1,26 @@
 const icon = document.getElementById('icon');
 const logo = document.getElementById('logo');
 
-icon.onclick = () => {
-    document.body.classList.toggle('light-mode');
+let savedTheme = localStorage.getItem('theme');
 
-    if (document.body.classList.contains('light-mode')) {
+if (icon != null) {
+    icon.onclick = () => {
+        switchTheme();
+        console.log(savedTheme)
+    }
+}
+
+function switchTheme () {
+    if (savedTheme === 'dark') {
+        document.body.classList.toggle('light-mode');
         icon.src = "img/moon.png";
-        logo.src = "img/bugzonegames_logo.png";
-
+        logo.src = 'img/bugzonegames_logo.png';
+        localStorage.setItem('theme', 'light');
     }
     else {
-        icon.src = "img/sun.png";
-        logo.src = "img/bugzonegames_white.png"
+        document.body.classList.toggle('light-mode');
+        logo.src = 'img/bugzonegames_white.png';
+        icon.src = 'img/sun.png';
+        localStorage.setItem('theme', 'dark');
     }
 }
