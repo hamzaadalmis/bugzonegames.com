@@ -13,6 +13,10 @@
 	scroll-behavior: smooth;
 }
 
+body {
+    color: var(--bg-color);
+}
+
 h1 {
 	font-size: 1.8em;
 }
