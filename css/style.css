@@ -83,7 +83,7 @@ nav #img {
 	transition-duration: 0.65s;
 }
 
-.navbar>li a:not(:hover) {
+.btn:not(:hover) {
 	color: var(--prm-txt-color);
 	transition-duration: 0.85s;
 }
@@ -117,20 +117,6 @@ nav #img {
     max-width: 45vw;
     font-size: 1.25em;
 	line-height: 1.5em;
-}
-
-.badges {
-    margin-top: 1.5em;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-}
-
-.badges-img {
-	height: 4vh;
-	width: 4vw;
-	flex-grow: 1;
 }
 
 #aboutus p {
