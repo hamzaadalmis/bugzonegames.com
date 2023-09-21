@@ -88,6 +88,12 @@ nav #img {
 	transition-duration: 0.85s;
 }
 
+#icon {
+    width: 48px;
+    
+    cursor: pointer;
+}
+
 .slider img {
 	max-width: 100%;
 	height: auto;
