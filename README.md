@@ -4,7 +4,7 @@
 
 ## What is this project?
 
-This project is bugzonegames.com website for using with Netlify.
+This repository is used for bugzonegames.com website building with Netlify.
 
 ## Contributing
 
@@ -12,4 +12,4 @@ We don't accept any contributing. This repository is just for archiving.
 
 ## Deployment
 
-Deployment maintained by Netlify. After pushing commitments to repository, Netlify will start build process and deploy our repository to host machine.
+Deployment maintained by Netlify. After pushing commitments to repository, Netlify will start build process and deploy repository to host machine.
