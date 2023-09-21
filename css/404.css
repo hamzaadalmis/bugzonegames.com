@@ -1,19 +1,22 @@
-.client-error-page {
-	font-size: 3em;
+main {
 	text-align: center;
 	margin: 30vh auto;
 }
 
-.client-error-page button {
-	min-width: 230px;
+button {
+	min-width: 1vw;
 	width: 20vw;
-	font-size: 1.15rem;
 }
 
-.client-error-page a {
+a {
+    font-size: 1.5em;
 	color: var(--bg-color);
 }
 
-.client-error-page #msg {
-	font-size: 1em;
+h1 {
+    font-size: 12em;
+}
+
+h2 {
+	font-size: 8em;
 }
