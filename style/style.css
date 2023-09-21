@@ -91,6 +91,7 @@ nav #img {
 }
 
 #games {
+    max-width: 60vw;
 	padding: 1.5em;
 }
 
