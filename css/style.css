@@ -99,8 +99,13 @@ nav #img {
 	margin-bottom: 1em;
 }
 
+#games img {
+	width: 50%;
+	height: auto;
+	padding-bottom: 1em;
+}
+
 #games h2 {
-	margin-bottom: 1em;
     color: var(--scd-txt-color);
 }
 
@@ -108,12 +113,6 @@ nav #img {
     max-width: 25vw;
     font-size: 1.25em;
 	line-height: 1.5em;
-}
-
-#games img {
-	width: 50%;
-	height: auto;
-	padding-bottom: 1em;
 }
 
 .badges {
@@ -129,15 +128,9 @@ nav #img {
 	flex-grow: 1;
 }
 
-#aboutus {
-	margin-bottom: 1em;
-}
-
-#aboutus h1 {
-	margin-bottom: 0.8em;
-}
-
 #aboutus p {
+    margin-top: 0.5em;
+    font-size: 1.25em;
 	line-height: 1.5em;
 }
 
