@@ -1,4 +1,4 @@
-@import "style.css";
+@import "css/style.css";
 
 .client-error-page {
 	font-size: 3em;
@@ -13,7 +13,7 @@
 }
 
 .client-error-page a {
-	color: var(--ctn-bg-color);
+	color: var(--bg-color);
 }
 
 .client-error-page #msg {

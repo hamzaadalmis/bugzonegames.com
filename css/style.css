@@ -13,12 +13,9 @@
 	scroll-behavior: smooth;
 }
 
-body {
-    color: var(--bg-color);
-}
-
 main {
     min-width: 1024px;
+    color: var(--bg-color);
 }
 
 h1 {

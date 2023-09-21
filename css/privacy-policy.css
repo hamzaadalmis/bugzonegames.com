@@ -1,4 +1,4 @@
-@import "style.css";
+@import "css/style.css";
 
 #privacy-policy {
 	margin: 8px;
@@ -23,5 +23,5 @@
 }
 
 #email-link:hover, #website-link:hover {
-    color: var(--scn-txt-color);
+    color: var(--scd-txt-color);
 }
