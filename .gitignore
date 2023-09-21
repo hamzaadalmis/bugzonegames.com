@@ -70,11 +70,5 @@ package-lock.json
 # Yarn Integrity file
 .yarn-integrity
 
-# Compiled files
-dist/
-
 # Netlify config files
 .netlify
-
-# Gulp.js files
-gulpfile.js
