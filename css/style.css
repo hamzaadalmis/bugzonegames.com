@@ -1,10 +1,10 @@
 :root {
 	--font: 'Montserrat', sans-serif;
 	--prm-txt-color: #FFFFFF;
-	--scd-txt-color: #FE6301;
-	--trd-txt-color: #A1A1A1;
-	--fth-txt-color: #D35304;
-	--bg-color: #171716;
+	--scd-txt-color: #FF6A00;
+	--trd-txt-color: #E1DEE3;
+	--fth-txt-color: #FF9429;
+	--bg-color: #050505;
 }
 
 * {

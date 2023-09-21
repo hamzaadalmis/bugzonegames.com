@@ -1,4 +1,5 @@
 #privacy-policy {
+    margin: 1em;
     font-size: 1.25em;
 	line-height: 2em;
 }
@@ -12,13 +13,18 @@
 }
 
 #privacy-policy p {
-	text-indent: 1em;
+	text-indent: 1.5em;
 }
 
-#email-link, #website-link {
+#privacy-policy li {
+    margin-left: 2vw;
+}
+
+.email-link, #website-link {
     color: var(--prm-txt-color);
 }
 
-#email-link:hover, #website-link:hover {
-    color: var(--scd-txt-color);
+.email-link:hover, #website-link:hover {
+    color: var(--fth-txt-color);
+    text-decoration: underline;
 }
