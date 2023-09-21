@@ -1,6 +1,7 @@
 main {
-	text-align: center;
-	margin: 30vh auto;
+	margin: auto;
+    padding-top: 12.5%;
+    text-align: center;
 }
 
 button {
