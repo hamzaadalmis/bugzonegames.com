@@ -1,11 +1,15 @@
 const {src, dest, series} = require('gulp');
-const minifyHtml = require('gulp-html-minimizer');
-const minifyCss = require('gulp-cssnano');
-const minifyImg = require('gulp-imagemin');
+const htmlMin = require('gulp-htmlmin');
+const cssMin = require('gulp-cssmin');
+const imgMin = require('gulp-imagemin');
+const svgMin = require('gulp-svgmin');
+const cleanCss = require('gulp-clean-css');
+const uglifier = require('gulp-uglify');
+const obfuscator = require('gulp-obfuscate');
 
 const fileCopier = () => {
     return src('./**')
-    .pipe(dest('dist'));
+    .pipe(dest('dist/'));
 }
 
 const htmlMinifier = () => {
