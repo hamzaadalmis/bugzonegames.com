@@ -1,4 +1,35 @@
 {
   "trailingComma": "all",
-  "singleQuote": false
+  "singleQuote": true,
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+            "singleQuote": false,
+            "semi": true
+        }
+    },
+    {
+        "files": "*.htm",
+        "options": {
+            "singleQuote": false,
+            "semi": true
+        }
+      },
+      {
+        "files": "*.css",
+        "options": {
+            "singleQuote": false,
+            "semi": true
+        }
+      },
+      {
+        "files": "*.json",
+        "options": {
+            "singleQuote": false,
+            "semi": true
+        }
+      }
+  ]
 }

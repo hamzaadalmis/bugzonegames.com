@@ -8,23 +8,22 @@ const enableLightMode = () => {
     localStorage.setItem('lightMode', 'enabled');
     icon.src = 'img/moon.webp';
     logo.src = 'img/bugzonegames_logo.webp';
-}
+};
 
 const disableLightMode = () => {
     document.body.classList.remove('light-mode');
     localStorage.setItem('lightMode', null);
     icon.src = 'img/sun.webp';
     logo.src = 'img/bugzonegames_white.webp';
-}
+};
 
-if (icon != null) {
+if (icon !== null) {
     icon.addEventListener('click', () => {
         lightMode = localStorage.getItem('lightMode');
 
         if (lightMode !== 'enabled') {
             enableLightMode();
-        }
-        else {
+        } else {
             disableLightMode();
         }
     });
