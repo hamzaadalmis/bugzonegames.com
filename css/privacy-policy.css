@@ -1,6 +1,7 @@
 #privacy-policy {
 	margin: 8px;
 	padding: 8px;
+    font-size: 1.25em;
 	line-height: 2em;
 }
 
@@ -9,7 +10,7 @@
 }
 
 #privacy-policy h2 {
-	padding: .5em;
+	padding: 0.5em;
 }
 
 #privacy-policy p {
