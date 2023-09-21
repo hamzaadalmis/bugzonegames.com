@@ -1,9 +1,9 @@
 :root {
 	--font: 'Montserrat', sans-serif;
-	--prm-txt-color: #fff;
-	--scd-txt-color: #fe6301;
-	--trd-txt-color: #a1a1a1;
-	--fth-txt-color: #d35304;
+	--prm-txt-color: #FFFFFF;
+	--scd-txt-color: #FE6301;
+	--trd-txt-color: #A1A1A1;
+	--fth-txt-color: #D35304;
 	--bg-color: #171716;
     --ctx-color: #2E2E2C;
 }
