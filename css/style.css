@@ -264,3 +264,19 @@ footer a:hover {
 	margin-bottom: 1.0em;
     font-size: 1.15em;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+background: var(--trd-txt-color);
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--fth-txt-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: var(--scd-txt-color);
+}
