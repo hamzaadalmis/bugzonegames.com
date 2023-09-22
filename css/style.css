@@ -21,6 +21,10 @@
 	scroll-behavior: smooth;
 }
 
+html, body{
+    overflow-x:hidden;
+}
+
 body {
     background: var(--bg-color);
 }
@@ -103,7 +107,6 @@ nav #logo {
 }
 
 #games {
-    max-width: 60vw;
 	padding: 1.5em;
 }
 
@@ -112,7 +115,7 @@ nav #logo {
 }
 
 #games img {
-	width: 50%;
+	width: 25vw;
 	height: auto;
 }
 
@@ -135,8 +138,6 @@ nav #logo {
 }
 
 .badges-img {
-    height: 100%;
-    width: 100vw;
     flex-grow: 1;
 }
 
@@ -222,11 +223,11 @@ button {
 	background: var(--scd-txt-color);
 	border-radius: 15px;
 	border: 0;
-	font-size: 1rem;
-	margin: 0.65em auto 0.75em;
-	padding: 0.6em;
-	min-width: 75pt;
-	width: 10vw;
+	font-size: 1.5rem;
+    font-weight: 500;
+	margin: 0.5em auto 0.75em;
+	padding: 0.3em;
+	width: 12vw;
 }
 
 button:hover {
