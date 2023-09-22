@@ -22,7 +22,7 @@
 }
 
 html, body{
-    /*overflow-x:hidden;*/
+    overflow-x:hidden;
 }
 
 body {
@@ -133,13 +133,17 @@ nav #logo {
 .badges {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: center;
-    max-width: 25vw;
+    align-items: center;
 }
 
-.badges-img {
+.badge {
     flex-grow: 1;
+}
+
+.badge-img {
+    max-width: 100%;
+    min-width: 35%;
+    height: auto;
 }
 
 #aboutus p {
