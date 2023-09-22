@@ -19,12 +19,3 @@
 #privacy-policy li {
     margin-left: 2em;
 }
-
-.email-link, #website-link {
-    color: var(--prm-txt-color);
-}
-
-.email-link:hover, #website-link:hover {
-    color: var(--fth-txt-color);
-    text-decoration: underline;
-}

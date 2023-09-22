@@ -15,12 +15,3 @@
 #terms-and-conditions p {
 	text-indent: 1.5em;
 }
-
-#email-link, #website-link {
-    color: var(--prm-txt-color);
-}
-
-#email-link:hover, #website-link:hover {
-    color: var(--fth-txt-color);
-    text-decoration: underline;
-}
