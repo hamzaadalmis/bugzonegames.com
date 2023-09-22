@@ -22,7 +22,7 @@
 }
 
 html, body{
-    overflow-x:hidden;
+    /*overflow-x:hidden;*/
 }
 
 body {
@@ -134,7 +134,8 @@ nav #logo {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    align-content: center;
+    justify-content: center;
+    max-width: 25vw;
 }
 
 .badges-img {
@@ -227,7 +228,7 @@ button {
     font-weight: 500;
 	margin: 0.5em auto 0.75em;
 	padding: 0.3em;
-	width: 12vw;
+	width: 20%;
 }
 
 button:hover {
@@ -282,9 +283,9 @@ background: var(--trd-txt-color);
 }
 
 ::-webkit-scrollbar-thumb {
-background: var(--fth-txt-color);
+background: var(--scd-txt-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: var(--scd-txt-color);
+background: var(--fth-txt-color);
 }
