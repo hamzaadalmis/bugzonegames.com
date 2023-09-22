@@ -136,7 +136,8 @@ nav #logo {
 
 .badges-img {
     height: 100%;
-    width: 1000vw;
+    width: 100vw;
+    flex-grow: 1;
 }
 
 #aboutus p {
