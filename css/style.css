@@ -237,10 +237,6 @@ button:active {
 	transition-duration: 0.5s;
 }
 
-footer p {
-	order: -1;
-}
-
 footer a,
 footer p {
 	color: var(--trd-txt-color);
@@ -248,6 +244,10 @@ footer p {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+footer p {
+	order: -1;
 }
 
 .links {
