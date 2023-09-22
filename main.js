@@ -6,15 +6,21 @@ let lightMode = localStorage.getItem('lightMode');
 const enableLightMode = () => {
     document.body.classList.add('light-mode');
     localStorage.setItem('lightMode', 'enabled');
-    icon.src = 'img/moon.webp';
-    logo.src = 'img/bugzonegames_logo.webp';
+
+    if (src !== null && logo !== null) {
+        icon.src = 'img/moon.webp';
+        logo.src = 'img/bugzonegames_logo.webp';
+    }
 };
 
 const disableLightMode = () => {
     document.body.classList.remove('light-mode');
     localStorage.setItem('lightMode', null);
-    icon.src = 'img/sun.webp';
-    logo.src = 'img/bugzonegames_white.webp';
+
+    if (icon !== null && logo !== null) {
+        icon.src = 'img/sun.webp';
+        logo.src = 'img/bugzonegames_white.webp';
+    }
 };
 
 if (icon !== null) {

@@ -1,6 +1,6 @@
 #privacy-policy {
     margin: 1em;
-    font-size: 1.25em;
+    font-size: 1.25rem;
 	line-height: 2em;
 }
 
@@ -17,7 +17,7 @@
 }
 
 #privacy-policy li {
-    margin-left: 2vw;
+    margin-left: 2em;
 }
 
 .email-link, #website-link {
