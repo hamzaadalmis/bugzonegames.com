@@ -15,16 +15,6 @@
     --bg-color: #E1DEE3;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	scroll-behavior: smooth;
-}
-
-html, body{
-    overflow-x:hidden;
-}
-
 body {
     background: var(--bg-color);
 }
