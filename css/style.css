@@ -127,18 +127,13 @@ nav #logo {
 
 .badges {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
+    justify-content: space-around;
 }
-
-.badge {
-    flex-grow: 1;
-}
-
-.badge-img {
-    max-width: 100%;
-    min-width: 35%;
-    height: auto;
+.badges>a {
+    width: 100px;
 }
 
 #aboutus p {
