@@ -87,6 +87,9 @@ nav #logo {
 }
 
 #icon {
+    position: absolute;
+    right: 16px;
+    top: 16px;
     width: 48px;
     cursor: pointer;
 }
