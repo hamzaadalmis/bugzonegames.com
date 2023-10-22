@@ -147,10 +147,6 @@ footer {
 	color: var(--scd-txt-color);
 }
 
-#contact h1 {
-	margin-top: 0.5em;
-}
-
 form {
 	display: grid;
 	padding: 0.5em;
