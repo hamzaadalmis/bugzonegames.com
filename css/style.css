@@ -79,12 +79,12 @@ nav #logo {
 }
 
 .btn:hover {
-	color: var(--scd-txt-color);
+	color: var(--prm-txt-color);
 	transition-duration: 0.65s;
 }
 
 .btn:not(:hover) {
-	color: var(--prm-txt-color);
+	color: var(--fth-txt-color);
 	transition-duration: 0.85s;
 }
 
