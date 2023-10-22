@@ -175,7 +175,6 @@ textarea {
 textarea {
 	resize: none;
 	height: 10vh;
-    min-width: 25vw;
 	margin: 0.5em auto;
 	padding: 0.5em auto;
 	overflow: hidden;
@@ -185,11 +184,13 @@ input,
 textarea::placeholder {
 	font-family: var(--font);
 	font-size: 1.25rem;
+    margin: 0.5em;
 }
 
 input:focus,
 textarea:focus {
 	border: 2px solid var(--scd-txt-color);
+    margin: 0.5em;
 	outline: none;
 }
 
@@ -204,10 +205,10 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
     font-family: var(--font);
     font-size: 1.25rem;
+    margin: 0.5em;
     border: 2px solid var(--scd-txt-color);
     -webkit-text-fill-color: var(--trd-txt-color);
     -webkit-box-shadow: 0 0 0px 1000px #000 inset;
-    transition: background 5000s ease-in-out 0.5s;
 }
 
 button {
