@@ -157,36 +157,34 @@ label {
 }
 
 input {
-	margin: 0 auto 0.75em;
+	margin: 0.25em auto;
 	padding: 0.6em;
 }
 
 input,
 textarea {
 	font-family: var(--font);
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 	background: var(--bg-color);
 	color: var(--trd-txt-color);
-	border-radius: 15px;
+	border-radius: 0px;
 	border: 2px solid var(--trd-txt-color);
-	min-width: 24vw;
+	min-width: 25vw;
 }
 
 textarea {
 	resize: none;
 	height: 10vh;
-	margin: 0 auto;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	padding-top: 0.5em;
-	padding-left: 0.5em;
+    min-width: 25vw;
+	margin: 0.5em auto;
+	padding: 0.5em auto;
 	overflow: hidden;
 }
 
 input,
 textarea::placeholder {
 	font-family: var(--font);
-	font-size: 1.1rem;
+	font-size: 1.25rem;
 }
 
 input:focus,
@@ -204,15 +202,17 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border: 1px solid var(--scd-txt-color);
-  -webkit-text-fill-color: var(--trd-txt-color);
-  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
-  transition: background 5000s ease-in-out 0.25s;
+    font-family: var(--font);
+    font-size: 1.25rem;
+    border: 2px solid var(--scd-txt-color);
+    -webkit-text-fill-color: var(--trd-txt-color);
+    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background 5000s ease-in-out 0.5s;
 }
 
 button {
 	background: var(--scd-txt-color);
-	border-radius: 15px;
+	border-radius: 0px;
 	border: 0;
     font-family: var(--font);
 	font-size: 1.5rem;
@@ -236,6 +236,10 @@ button:active {
 	transition-duration: 0.5s;
 }
 
+footer {
+    margin: 1em;
+}
+
 footer a,
 footer p {
 	color: var(--trd-txt-color);
@@ -251,7 +255,7 @@ footer p {
 
 .links {
     color: var(--trd-txt-color);
-	padding-bottom: 0.5em;
+	padding: 0.5em;
     font-size: 1.15em;
 }
 
