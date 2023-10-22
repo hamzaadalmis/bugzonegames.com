@@ -173,12 +173,13 @@ textarea {
 	border-radius: 0px;
 	border: 2px solid var(--trd-txt-color);
 	min-width: 25vw;
+    max-width: fit-content;
 }
 
 textarea {
 	resize: none;
 	height: 10vh;
-	margin: 0.5em;
+	margin: 0.5em auto;
 	padding: 0.5em;
 	overflow: hidden;
 }
@@ -192,7 +193,7 @@ textarea::placeholder {
 input:focus,
 textarea:focus {
 	border: 2px solid var(--scd-txt-color);
-    	outline: none;
+    outline: none;
 }
 
 input:-webkit-autofill,
