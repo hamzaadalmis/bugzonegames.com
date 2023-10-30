@@ -243,7 +243,7 @@ select:-webkit-autofill:focus {
     font-size: 1.25rem;
     border: 2px solid var(--scd-txt-color);
     -webkit-text-fill-color: var(--trd-txt-color);
-    -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    -webkit-box-shadow: 0 0 0px 1000px var(--bg-color) inset;
 }
 
 button {
