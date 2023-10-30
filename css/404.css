@@ -1,24 +1,24 @@
-main {
+.notfound {
 	margin: auto;
     padding-top: 12.5%;
     text-align: center;
 }
 
-button {
+.not-found__title {
+    font-size: 12em;
+}
+
+.not-found__text {
+	font-size: 8em;
+}
+
+.not-found__button {
 	min-width: 1vw;
 	width: 20vw;
     border-radius: 0;
 }
 
-a {
+.not-found__button-text {
     font-size: 1.5em;
 	color: var(--bg-color);
-}
-
-h1 {
-    font-size: 12em;
-}
-
-h2 {
-	font-size: 8em;
 }
