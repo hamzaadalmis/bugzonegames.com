@@ -106,27 +106,27 @@ img {
 }
 
 .games {
-	padding: 1.5em;
+	padding: 1em;
 }
 
 .games>h1 {
 	margin-bottom: 0.5em;
 }
 
-.games>img {
-	width: 25vw;
-	height: auto;
-}
-
 .games>h2 {
-    margin-top: 0.5em;
     color: var(--scd-txt-color);
 }
 
+.games>img {
+	width: 8vw;
+	height: auto;
+    margin-top: 1em;
+}
+
 .games>p {
-    margin-top: 0.5em;
+    margin: 1.25em 3em;
     font-size: 1.25em;
-	line-height: 1.5em;
+	line-height: 1.25em;
 }
 
 .badges {
@@ -169,8 +169,12 @@ img {
     max-width: 320px;
 }
 
+.aboutus {
+    padding: 1em;
+}
+
 .aboutus>p {
-    margin-top: 0.5em;
+    margin: 1.25em 3em;
     font-size: 1.25em;
 	line-height: 1.5em;
 }
@@ -296,7 +300,6 @@ footer p {
 }
 
 .copyright {
-	margin-bottom: 1.0em;
     font-size: 1.15em;
 }
 
