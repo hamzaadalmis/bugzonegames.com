@@ -58,7 +58,7 @@ img {
     background: var(--bg-color);
 }
 
-#logo {
+.logo {
 	max-width: 75%;
 	height: auto;
 	margin: 1em;
@@ -92,7 +92,7 @@ img {
 	transition-duration: 0.85s;
 }
 
-#icon {
+.icon {
     position: absolute;
     right: 16px;
     top: 16px;
@@ -105,25 +105,25 @@ img {
 	height: auto;
 }
 
-#games {
+.games {
 	padding: 1.5em;
 }
 
-#games>h1 {
+.games>h1 {
 	margin-bottom: 0.5em;
 }
 
-#games>img {
+.games>img {
 	width: 25vw;
 	height: auto;
 }
 
-#games>h2 {
+.games>h2 {
     margin-top: 0.5em;
     color: var(--scd-txt-color);
 }
 
-#games>p {
+.games>p {
     margin-top: 0.5em;
     font-size: 1.25em;
 	line-height: 1.5em;
@@ -169,7 +169,7 @@ img {
     max-width: 320px;
 }
 
-#aboutus>p {
+.aboutus>p {
     margin-top: 0.5em;
     font-size: 1.25em;
 	line-height: 1.5em;
@@ -295,7 +295,7 @@ footer p {
 	padding: 0.5em;
 }
 
-#copyright {
+.copyright {
 	margin-bottom: 1.0em;
     font-size: 1.15em;
 }
@@ -318,11 +318,11 @@ background: var(--fth-txt-color);
 
 /* for legal pages links */
 
-.email-link, .website-link {
+.link {
     color: var(--prm-txt-color);
 }
 
-.email-link:hover, .website-link:hover {
+.link:hover {
     color: var(--fth-txt-color);
     text-decoration: underline;
 }

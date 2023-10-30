@@ -1,17 +1,17 @@
-#legal {
+.legal {
     margin: 1em;
     font-size: 1.25em;
 	line-height: 2em;
 }
 
-#legal h1 {
+.legal h1 {
 	padding: 0.5em;
 }
 
-#legal h2 {
+.legal h2 {
 	padding: 0.5em;
 }
 
-#legal p {
+.legal p {
 	text-indent: 1.5em;
 }

@@ -1,17 +1,17 @@
-#terms-and-conditions {
+.terms-and-conditions {
     margin: 1em;
     font-size: 1.25em;
 	line-height: 2em;
 }
 
-#terms-and-conditions h1 {
+.terms-and-conditions h1 {
 	padding: 0.5em;
 }
 
-#terms-and-conditions h2 {
+.terms-and-conditions h2 {
 	padding: 0.5em;
 }
 
-#terms-and-conditions p {
+.terms-and-conditions p {
 	text-indent: 1.5em;
 }

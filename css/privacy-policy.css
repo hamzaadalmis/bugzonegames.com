@@ -1,21 +1,21 @@
-#privacy-policy {
+.privacy-policy {
     margin: 1em;
     font-size: 1.25rem;
 	line-height: 2em;
 }
 
-#privacy-policy h1 {
+.privacy-policy h1 {
 	padding: 0.5em;
 }
 
-#privacy-policy h2 {
+.privacy-policy h2 {
 	padding: 0.5em;
 }
 
-#privacy-policy p {
+.privacy-policy p {
 	text-indent: 1.5em;
 }
 
-#privacy-policy li {
+.privacy-policy li {
     margin-left: 2em;
 }
