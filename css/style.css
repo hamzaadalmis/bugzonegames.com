@@ -3,7 +3,8 @@
     --prm-txt-color: #FFFFFF;
     --scd-txt-color: #FF6A00;
     --trd-txt-color: #E1DEE3;
-    --fth-txt-color: #FF9429;
+    --acc-txt-color: #FF9429;
+    --btn-act-color: #d4d4d4;
     --bg-color: #050505;
 }
 
@@ -11,7 +12,8 @@
     --prm-txt-color: #050505;
     --scd-txt-color: #FF6A00;
     --trd-txt-color: #1B1B1E;
-    --fth-txt-color: #FF9429;
+    --acc-txt-color: #FF9429;
+    --btn-act-color: #313131;
     --bg-color: #E1DEE3;
 }
 
@@ -88,7 +90,7 @@ img {
 }
 
 .btn:not(:hover) {
-	color: var(--fth-txt-color);
+	color: var(--acc-txt-color);
 	transition-duration: 0.85s;
 }
 
@@ -246,29 +248,30 @@ select:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px var(--bg-color) inset;
 }
 
-button {
+.submit__button {
+    display: inline-block;
 	background: var(--scd-txt-color);
-	border-radius: 0px;
-	border: 0;
+	border: 0 solid;
+	margin: auto;
+	padding: 0.5em;
     font-family: var(--font);
 	font-size: 1.5rem;
     font-weight: 500;
-	margin: auto;
-	padding: 0.5em;
 }
 
-button:hover {
-	background: var(--fth-txt-color);
+.submit__button:hover {
+	background: var(--acc-txt-color);
 	transition-duration: 0.85s;
 }
 
-button:not(:hover) {
+.submit__button:not(:hover) {
 	background: var(--scd-txt-color);
 	transition-duration: 0.65s;
 }
 
-button:active {
-	background: var(--trd-txt-color);
+.submit__button:active {
+	background: var(--btn-act-color);
+    color: var(--acc-txt-color);
 	transition-duration: 0.5s;
 }
 
@@ -316,7 +319,7 @@ background: var(--scd-txt-color);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: var(--fth-txt-color);
+background: var(--acc-txt-color);
 }
 
 /* for legal pages links */
@@ -326,6 +329,6 @@ background: var(--fth-txt-color);
 }
 
 .link:hover {
-    color: var(--fth-txt-color);
+    color: var(--acc-txt-color);
     text-decoration: underline;
 }
