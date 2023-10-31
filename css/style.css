@@ -68,9 +68,10 @@ img {
 }
 
 .logo {
-	max-width: 75%;
-	height: auto;
 	margin: 1em;
+	height: auto;
+	max-width: 75%;
+    outline: 0px;
 }
 
 .navbar {
@@ -86,19 +87,16 @@ img {
 	list-style: none;
 }
 
-.btn {
+.btn, .btn:not(:hover) {
     font-size: 2em;
     font-weight: 600;
+    color: var(--clr-accent-400);
+	transition-duration: 850ms;
 }
 
 .btn:hover {
 	color: var(--clr-secondary-500);
-	transition-duration: 0.65s;
-}
-
-.btn:not(:hover) {
-	color: var(--clr-accent-400);
-	transition-duration: 0.85s;
+	transition-duration: 650ms;
 }
 
 .icon {
@@ -218,7 +216,7 @@ textarea {
 	font-size: 1.25rem;
 	background: var(--bg-color);
 	color: var(--clr-secondary-400);
-	border-radius: 0px;
+	border-radius: 0;
 	border: 2px solid var(--clr-secondary-400);
 	min-width: 25vw;
     max-width: fit-content;
@@ -260,7 +258,7 @@ select:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px var(--bg-color) inset;
 }
 
-.submit__button {
+.submit__button, .submit__button:not(:hover) {
     display: inline-block;
 	background: var(--clr-primary-400);
 	border: 0 solid;
@@ -269,22 +267,19 @@ select:-webkit-autofill:focus {
     font-family: var(--primary-font);
 	font-size: 1.5rem;
     font-weight: 500;
+    background: var(--clr-primary-400);
+	transition-duration: 500ms;
 }
 
 .submit__button:hover {
 	background: var(--clr-accent-400);
-	transition-duration: 0.85s;
-}
-
-.submit__button:not(:hover) {
-	background: var(--clr-primary-400);
-	transition-duration: 0.65s;
+	transition-duration: 600ms;
 }
 
 .submit__button:active {
 	background: var(--clr-button);
     color: var(--clr-accent-400);
-	transition-duration: 0.5s;
+	transition-duration: 500ms;
 }
 
 footer {
