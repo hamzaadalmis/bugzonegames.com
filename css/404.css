@@ -1,8 +1,7 @@
 @import url(style.css);
 
 .notfound {
-	margin: auto;
-    padding-top: 12.5%;
+	margin-left: auto;
     text-align: center;
 }
 
@@ -15,12 +14,18 @@
 }
 
 .not-found__button {
-	min-width: 1vw;
-	width: 20vw;
+    display: inline-block;
+	background: var(--scd-txt-color);
+	border: 0 solid;
     border-radius: 0;
+    height: 10vh;
+	width: 16vw;
+    margin: 4em;
 }
 
 .not-found__button-text {
-    font-size: 1.5em;
-	color: var(--bg-color);
+	color: var(--prm-txt-color);
+    font-family: var(--font);
+	font-size: 2em;
+    font-weight: 500;
 }

@@ -1,7 +1,8 @@
 @import url(globals.css);
 
 :root {
-	--font: 'Montserrat', sans-serif;
+	--prm-font: 'Montserrat', sans-serif;
+    --scd-font: 'IBM Plex Sans', sans-serif;
     --prm-txt-color: #FFFFFF;
     --scd-txt-color: #FF6A00;
     --trd-txt-color: #E1DEE3;
@@ -35,7 +36,11 @@ h2 {
 
 a, h1, h2, h3, h4, h5, h6, li, p, i, s, strong {
 	color: var(--prm-txt-color);
-	font-family: var(--font);
+	font-family: var(--prm-font);
+}
+
+p {
+    font-family: var(--scd-font);
 }
 
 i {
@@ -113,13 +118,14 @@ img {
 	padding: 1em;
 }
 
-.games>h1 {
+.games h2 {
 	margin-bottom: 0.5em;
 }
 
-.games>h2 {
+.games h3 {
     color: var(--scd-txt-color);
 }
+
 
 .games>img {
 	width: 8vw;
@@ -188,6 +194,10 @@ footer {
 	color: var(--scd-txt-color);
 }
 
+footer p {
+    font-family: var(--prm-font);
+}
+
 form {
 	display: grid;
 	padding: 0.5em;
@@ -204,7 +214,7 @@ input {
 
 input,
 textarea {
-	font-family: var(--font);
+	font-family: var(--prm-font);
 	font-size: 1.25rem;
 	background: var(--bg-color);
 	color: var(--trd-txt-color);
@@ -224,7 +234,7 @@ textarea {
 
 input,
 textarea::placeholder {
-	font-family: var(--font);
+	font-family: var(--prm-font);
 	font-size: 1.25rem;
 }
 
@@ -243,7 +253,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-    font-family: var(--font);
+    font-family: var(--prm-font);
     font-size: 1.25rem;
     border: 2px solid var(--scd-txt-color);
     -webkit-text-fill-color: var(--trd-txt-color);
@@ -256,7 +266,7 @@ select:-webkit-autofill:focus {
 	border: 0 solid;
 	margin: auto;
 	padding: 0.5em;
-    font-family: var(--font);
+    font-family: var(--prm-font);
 	font-size: 1.5rem;
     font-weight: 500;
 }
