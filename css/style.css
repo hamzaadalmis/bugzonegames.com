@@ -1,64 +1,5 @@
 @import url(globals.css);
 
-:root {
-	--primary-font: 'Montserrat', 'Arial', sans-serif;
-    --secondary-font: 'IBM Plex Sans', 'Arial', sans-serif;
-    --bg-color: #050505;
-    --clr-primary-400: #FF6A00;
-    --clr-secondary-400: #E1DEE3;
-    --clr-secondary-500: #FFFFFF;
-    --clr-accent-400: #FF9429;
-    --clr-button: #d4d4d4;
-}
-
-.light-mode {
-    --bg-color: #E1DEE3;
-    --clr-primary-400: #FF6A00;
-    --clr-secondary-400: #1B1B1E;
-    --clr-secondary-500: #050505;
-    --clr-accent-400: #FF9429;
-    --clr-button: #313131;
-}
-
-body {
-    background: var(--bg-color);
-    display: block;
-    box-sizing: border-box;
-}
-
-a, h1, h2, h3, h4, h5, h6, li, p, i, s, strong {
-	color: var(--clr-secondary-500);
-	font-family: var(--primary-font);
-}
-
-h1 {
-	font-size: 3em;
-}
-
-h2 {
-	font-size: 2.3em;
-}
-
-p {
-    font-family: var(--secondary-font);
-}
-
-i {
-    margin-left: 5em;
-}
-
-a {
-	text-decoration: none;
-}
-
-ul {
-	list-style: none;
-}
-
-img {
-    width: 100%;
-}
-
 .container {
 	display: flex;
 	flex-direction: column;
@@ -87,7 +28,7 @@ img {
 	list-style: none;
 }
 
-.btn, .btn:not(:hover) {
+.nav_link, .nav_link:not(:hover) {
     font-size: 2em;
     font-weight: 600;
     color: var(--clr-primary-400);
@@ -96,7 +37,7 @@ img {
     transition-timing-function: ease-in-out;
 }
 
-.btn:hover {
+.nav_link:hover {
 	color: var(--clr-accent-400);
 	transition-property: color;
 	transition-duration: 400ms;
@@ -109,11 +50,6 @@ img {
     top: 16px;
     width: 48px;
     cursor: pointer;
-}
-
-.slider img {
-	max-width: 100%;
-	height: auto;
 }
 
 .games {

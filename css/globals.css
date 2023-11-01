@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+:root {
+	--primary-font: 'Montserrat', 'Arial', sans-serif;
+    --bg-color: #050505;
+    --clr-primary-400: #FF6A00;
+    --clr-secondary-400: #E1DEE3;
+    --clr-secondary-500: #FFFFFF;
+    --clr-accent-400: #FF9429;
+    --clr-button: #d4d4d4;
+}
+
+.light-mode {
+    --bg-color: #E1DEE3;
+    --clr-primary-400: #FF6A00;
+    --clr-secondary-400: #1B1B1E;
+    --clr-secondary-500: #050505;
+    --clr-accent-400: #FF9429;
+    --clr-button: #313131;
+}
 
 *,
 *::before,
 *::after {
+    box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	scroll-behavior: smooth;
-    box-sizing: border-box;
 }
 
 html {
@@ -25,10 +43,6 @@ html, body{
 
 main {
     display: block;
-}
-
-h1 {
-    font-size: 1em;
 }
 
 hr {
@@ -96,7 +110,6 @@ textarea {
     font-family: inherit;
     font-size: 100%;
     line-height: 1.15;
-    margin: 0;
 }
 
 button,
@@ -116,58 +129,13 @@ button,
     appearance: button;
 }
 
-fieldset {
-    padding: 0.35em 0.75em 0.625em;
-}
-
-legend {
-    box-sizing: border-box;
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    padding: 0;
-    white-space: normal;
-}
-
-progress {
-    vertical-align: baseline;
-}
-
-textarea {
-    overflow: auto;
-}
-
-[type="checkbox"],
-[type="radio"] {
-    box-sizing: border-box;
-    padding: 0;
-}
-
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
 
-[type="search"] {
-    appearance: textfield;
-    outline-offset: -2px;
-}
-
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
-}
-
-details {
-    display: block;
-}
-
-summary {
-    display: list-item;
 }
 
 template {
@@ -176,4 +144,44 @@ template {
 
 [hidden] {
     display: none;
+}
+
+
+body {
+    background: var(--bg-color);
+    display: block;
+    box-sizing: border-box;
+}
+
+a, h1, h2, h3, h4, h5, h6, li, p, i, s, strong {
+	color: var(--clr-secondary-500);
+	font-family: var(--primary-font);
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.3em;
+}
+
+p {
+    font-family: var(--primary-font);
+}
+
+i {
+    margin-left: 5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+    width: 100%;
 }
