@@ -8,43 +8,43 @@
     background: var(--bg-color);
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 1em;
+    width: 100vw;
+}
+
 .logo {
-	margin: 1em;
-	height: auto;
-	max-width: 75%;
-    outline: 0px;
+    order: 1;
+    margin-right: auto;
+    padding-left: 1em;
+    width: 30vw;
 }
 
 .navbar {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+    order: 2;
 }
 
-.navbar li {
-	flex: 1;
-    margin: 0.25em;
-	padding: 0.25em;
-	list-style: none;
+.nav__links li {
+    display: inline-block;
+    padding: 0 3em;
 }
 
-.nav_link, .nav_link:not(:hover) {
-    font-size: 2em;
+.nav__link, .nav_link:not(:hover) {
+    font-size: 2vw;
     font-weight: 600;
     color: var(--clr-primary-400);
-    transition-property: color;
-	transition-duration: 400ms;
-    transition-timing-function: ease-in-out;
+    transition: color 400ms ease 0ms;
 }
 
-.nav_link:hover {
+.nav__link:hover {
 	color: var(--clr-accent-400);
-	transition-property: color;
-	transition-duration: 400ms;
-    transition-timing-function: ease-in-out;
+    transition: color 400ms ease 0ms;
 }
 
-.icon {
+.dark-mode {
     position: absolute;
     right: 16px;
     top: 16px;
