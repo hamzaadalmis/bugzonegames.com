@@ -128,7 +128,7 @@ img {
     color: var(--clr-primary-400);
 }
 
-.games img {
+.games>img {
 	width: 8vw;
 	height: auto;
     margin-top: 1em;
@@ -141,43 +141,14 @@ img {
 }
 
 .badges {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: space-evenly;
 }
 
-.badge-go {
-    flex-basis: 25%;
-}
-
-.badge-hw {
-    flex-basis: 25%;
-}
-
-.badge-sm{
-    flex-basis: 25%;
-}
-
-.badge-am {
-    flex-basis: 25%;
-}
-
-.badge-img-go {
-    max-width: 320px;
-}
-
-.badge-img-hw {
-    max-width: 320px;
-}
-
-.badge-img-sm{
-    max-width: 320px;
-}
-
-.badge-img-am {
-    max-width: 320px;
+.badge-img {
+    width: 18vw;
 }
 
 .aboutus {
