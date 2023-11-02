@@ -1,9 +1,5 @@
 @import url(globals.css);
 
-* {
-    outline: 2px solid orchid;
-}
-
 .container {
     display: flex;
 	flex-direction: column;
