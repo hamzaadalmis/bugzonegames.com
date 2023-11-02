@@ -65,10 +65,11 @@
     color: var(--clr-primary-400);
 }
 
-.games>img {
+.roll-ball-icon {
 	width: 8vw;
 	height: auto;
-    margin-top: 1em;
+    margin: auto;
+    padding: 1em;
 }
 
 .games p {
@@ -85,7 +86,7 @@
 }
 
 .badge-img {
-    width: 18vw;
+    width: 24em;
 }
 
 .aboutus {
