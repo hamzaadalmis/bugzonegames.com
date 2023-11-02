@@ -1,9 +1,9 @@
 @import url(style.css);
 
 .legal {
-    margin: 1em;
     font-size: 1.25em;
 	line-height: 2em;
+    margin: 1em;
 }
 
 .legal h1 {

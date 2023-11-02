@@ -1,9 +1,9 @@
 @import url(style.css);
 
 .terms-and-conditions {
-    margin: 1em;
     font-size: 1.25em;
 	line-height: 2em;
+    margin: 1em;
 }
 
 .terms-and-conditions h1 {

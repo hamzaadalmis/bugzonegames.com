@@ -3,19 +3,19 @@
 :root {
 	--primary-font: 'Montserrat', 'Arial', sans-serif;
     --bg-color: #050505;
-    --clr-primary-400: #FF6A00;
-    --clr-secondary-400: #E1DEE3;
-    --clr-secondary-500: #FFFFFF;
-    --clr-accent-400: #FF9429;
+    --clr-primary-400: #ff6a00;
+    --clr-secondary-400: #e1dee3;
+    --clr-secondary-500: #ffffff;
+    --clr-accent-400: #ff9429;
     --clr-button: #d4d4d4;
 }
 
 .light-mode {
-    --bg-color: #E1DEE3;
-    --clr-primary-400: #FF6A00;
-    --clr-secondary-400: #1B1B1E;
+    --bg-color: #e1dee3;
+    --clr-primary-400: #ff6a00;
+    --clr-secondary-400: #1b1b1e;
     --clr-secondary-500: #050505;
-    --clr-accent-400: #FF9429;
+    --clr-accent-400: #ff9429;
     --clr-button: #313131;
 }
 
@@ -169,7 +169,18 @@ template {
     display: none !important;
 }
 
-a, h1, h2, h3, h4, h5, h6, li, p, i, s, strong {
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+i,
+s,
+strong {
 	color: var(--clr-secondary-500);
 	font-family: var(--primary-font);
 }

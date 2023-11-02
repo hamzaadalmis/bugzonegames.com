@@ -4,8 +4,8 @@
     display: flex;
 	flex-direction: column;
 	align-items: center;
-	text-align: center;
     background: var(--bg-color);
+	text-align: center;
     transition: background 500ms ease-in-out, color 200ms ease;
 }
 
@@ -33,10 +33,11 @@
     padding: 0 3em;
 }
 
-.nav__link, .nav_link:not(:hover) {
+.nav__link,
+.nav_link:not(:hover) {
+    color: var(--clr-primary-400);
     font-size: 2vw;
     font-weight: 600;
-    color: var(--clr-primary-400);
     transition: color 400ms ease 0ms;
 }
 
@@ -46,11 +47,11 @@
 }
 
 .dark-mode {
+    cursor: pointer;
     position: absolute;
     right: 16px;
     top: 16px;
     width: 48px;
-    cursor: pointer;
 }
 
 .games {
@@ -73,9 +74,9 @@
 }
 
 .games p {
-    padding: 1.25em 3em;
     font-size: 1.25em;
 	line-height: 1.25em;
+    padding: 1.25em 3em;
 }
 
 .badges {
@@ -94,9 +95,9 @@
 }
 
 .aboutus p {
-    margin: 1.25em 3em;
     font-size: 1.25em;
 	line-height: 1.5em;
+    margin: 1.25em 3em;
 }
 
 footer {
@@ -130,23 +131,22 @@ label {
 
 input,
 textarea {
-    font-family: var(--primary-font);
-    font-size: 1.25rem;
     background: var(--bg-color);
     color: var(--clr-secondary-400);
-    border-radius: 0;
     border: 2px solid var(--clr-secondary-400);
+    border-radius: 0;
+    font-family: var(--primary-font);
+    font-size: 1.25rem;
     min-width: 25vw;
-    /* max-width: fit-content; */
     margin: 0.25em auto;
 	padding: 0.6em;
 }
 
 textarea {
-	resize: none;
 	height: 10vh;
     margin-bottom: 1em;
 	overflow: hidden;
+	resize: none;
 }
 
 input,
@@ -164,14 +164,16 @@ textarea:focus {
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
+    border: 2px solid var(--clr-primary-400);
     font-family: var(--primary-font);
     font-size: 1.25rem;
-    border: 2px solid var(--clr-primary-400);
     -webkit-text-fill-color: var(--clr-secondary-400);
     -webkit-box-shadow: 0 0 0px 1000px var(--bg-color) inset;
 }
 
-.submit__button, .submit__button:not(:hover), .submit__button:not(:active) {
+.submit__button,
+.submit__button:not(:hover),
+.submit__button:not(:active) {
 	background: var(--clr-primary-400);
 	border: 0 solid;
     border-radius: 4em;
@@ -201,8 +203,8 @@ input:-webkit-autofill:focus {
 
 .links {
     color: var(--clr-secondary-400);
-	padding: 0.5em;
     font-size: 1.15em;
+	padding: 0.5em;
 }
 
 .links a {
@@ -218,18 +220,16 @@ input:-webkit-autofill:focus {
 }
 
 ::-webkit-scrollbar-track {
-background: var(--clr-secondary-400);
+    background: var(--clr-secondary-400);
 }
 
 ::-webkit-scrollbar-thumb {
-background: var(--clr-primary-400);
+    background: var(--clr-primary-400);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: var(--clr-accent-400);
+    background: var(--clr-accent-400);
 }
-
-/* for legal pages links */
 
 .link {
     color: var(--clr-secondary-500);
