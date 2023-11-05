@@ -29,6 +29,7 @@
 }
 
 html {
+    color-scheme: light dark;
     height: -webkit-fill-available;
     line-height: 1.15;
     text-size-adjust: none;
@@ -40,6 +41,9 @@ body {
     box-sizing: border-box;
     background: var(--bg-color);
     display: block;
+    font-family: var(--primary-font);
+    font-size: 1.125rem;
+    line-height: 1.25;
     margin: 0;
     min-height: 100vh;
     min-height: -webkit-fill-available;
@@ -119,7 +123,8 @@ sup {
     top: -0.5em;
 }
 
-img {
+img,
+picture {
     display: block;
     max-width: 100%;
     border-style: none;
