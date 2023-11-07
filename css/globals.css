@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700");
 
 :root {
-    --primary-font: "Montserrat", "Arial", sans-serif;
+    --primary-font: "Montserrat", sans-serif;
     --bg-color: #050505;
     --clr-primary-400: #ff6a00;
     --clr-secondary-400: #e1dee3;
@@ -23,31 +23,35 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
+}
+
+html:focus-within {
     scroll-behavior: smooth;
 }
 
 html {
     color-scheme: light dark;
-    height: -webkit-fill-available;
-    line-height: 1.15;
     text-size-adjust: none;
     -ms-text-size-adjust: none;
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
+    height: -webkit-fill-available;
 }
 
 body {
-    box-sizing: border-box;
-    background: var(--bg-color);
-    display: block;
+    background-color: var(--bg-color);
     font-family: var(--primary-font);
     font-size: 1.125rem;
+    text-rendering: optimizeSpeed;
     line-height: 1.25;
-    margin: 0;
     min-height: 100vh;
     min-height: -webkit-fill-available;
+    transition: background 500ms ease-in-out;
 }
 
 html,
@@ -68,17 +72,6 @@ section {
     display: block;
 }
 
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
-
-pre {
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-
 a {
     background-color: transparent;
 }
@@ -90,33 +83,6 @@ a:visited {
 b,
 strong {
     font-weight: bolder;
-}
-
-code,
-kbd,
-samp {
-    font-family: monospace, monospace;
-    font-size: 1em;
-}
-
-small {
-    font-size: 80%;
-}
-
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
-
-sub {
-    bottom: -0.25em;
-}
-
-sup {
-    top: -0.5em;
 }
 
 img,
@@ -131,8 +97,6 @@ picture {
 
 button,
 input,
-optgroup,
-select,
 textarea {
     font-family: inherit;
     font-size: 100%;
@@ -145,15 +109,11 @@ input {
 }
 
 button,
-select {
-    text-transform: none;
-}
-
-button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
     appearance: button;
+    text-transform: none;
 }
 
 [type="number"]::-webkit-inner-spin-button,
@@ -163,10 +123,6 @@ button,
 
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
-}
-
-template {
-    display: none;
 }
 
 [hidden] {
@@ -185,8 +141,8 @@ p,
 i,
 s,
 strong {
-    color: var(--clr-secondary-500);
     font-family: var(--primary-font);
+    color: var(--clr-secondary-500);
 }
 
 h1 {

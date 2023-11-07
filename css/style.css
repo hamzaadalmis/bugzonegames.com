@@ -6,7 +6,7 @@
     align-items: center;
     background: var(--bg-color);
     text-align: center;
-    transition: background 500ms ease-in-out, color 200ms ease;
+    transition: background 500ms ease-in-out;
     width: min(100% - 3rem);
     margin-inline: auto;
 }
