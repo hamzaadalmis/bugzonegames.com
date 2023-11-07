@@ -1,35 +1,21 @@
 @import url(style.css);
 
-.notfound {
-    align-items: center;
-	display: flex;
-    justify-content: center;
+.notfound-title {
+    font-size: 16em;
+    color: crimson;
 }
 
-.not-found__title {
-    font-size: 12em;
-}
-
-.not-found__text {
+.notfound-text {
     font-size: 8em;
 }
 
-.not-found__button-text {
-	color: var(--clr-secondary-400);
+.notfound-btn {
+    background-color: var(--clr-primary-400);
+    color: var(--clr-secondary-400);
     font-family: var(--primary-font);
 	font-size: 175%;
     font-weight: 500;
-    margin: 1em;
-    min-width: 30vw;
-    padding: 1em 3em;
-}
-
-.not-found__button {
-    background: var(--clr-primary-400);
 	border: 0 solid;
     border-radius: 4em;
-    cursor: pointer;
-    margin: 1em;
-    min-width: 30vw;
     padding: 1em 3em;
 }
