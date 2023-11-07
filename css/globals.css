@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700");
 
 :root {
-	--primary-font: 'Montserrat', 'Arial', sans-serif;
+    --primary-font: "Montserrat", "Arial", sans-serif;
     --bg-color: #050505;
     --clr-primary-400: #ff6a00;
     --clr-secondary-400: #e1dee3;
@@ -23,9 +23,9 @@
 *::before,
 *::after {
     box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -50,8 +50,9 @@ body {
     min-height: -webkit-fill-available;
 }
 
-html, body {
-    overflow-x:hidden;
+html,
+body {
+    overflow-x: hidden;
 }
 
 main {
@@ -184,26 +185,25 @@ p,
 i,
 s,
 strong {
-	color: var(--clr-secondary-500);
-	font-family: var(--primary-font);
+    color: var(--clr-secondary-500);
+    font-family: var(--primary-font);
 }
 
 h1 {
-	font-size: 3em;
+    font-size: 3em;
 }
 
 h2 {
-	font-size: 2.3em;
+    font-size: 2.3em;
 }
 
 h3 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 h4 {
     font-size: 1.7em;
 }
-
 
 h5 {
     font-size: 1.4em;
@@ -221,10 +221,11 @@ i {
     margin-left: 5em;
 }
 
-li, a {
-	text-decoration: none;
+li,
+a {
+    text-decoration: none;
 }
 
 ul {
-	list-style: none;
+    list-style: none;
 }

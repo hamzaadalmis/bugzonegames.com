@@ -1,6 +1,6 @@
-const OFF = 0;
-const WARN = 1;
-const ERROR = 2;
+const OFF = 0
+const WARN = 1
+const ERROR = 2
 
 module.exports = exports = {
     env: {
@@ -43,12 +43,12 @@ module.exports = exports = {
         ],
         'block-scoped-var': WARN,
         'consistent-return': ERROR,
-        'curly': ERROR,
+        curly: ERROR,
         'default-case': WARN,
         // the dot goes with the property when doing multiline
         'dot-location': [WARN, 'property'],
         'dot-notation': WARN,
-        'eqeqeq': [ERROR, 'smart'],
+        eqeqeq: [ERROR, 'smart'],
         'guard-for-in': WARN,
         'no-alert': ERROR,
         'no-caller': ERROR,
@@ -96,13 +96,13 @@ module.exports = exports = {
         'no-useless-concat': ERROR,
         'no-void': WARN,
         'no-with': WARN,
-        'radix': WARN,
+        radix: WARN,
         'vars-on-top': ERROR,
         'wrap-iife': [ERROR, 'outside'],
-        'yoda': ERROR,
+        yoda: ERROR,
 
         // Strict Mode - for ES6, never use strict.
-        'strict': [ERROR, 'never'],
+        strict: [ERROR, 'never'],
 
         // Variables
         'init-declarations': [ERROR, 'always'],
@@ -154,7 +154,7 @@ module.exports = exports = {
         'array-bracket-spacing': [OFF, 'always'],
         'block-spacing': [WARN, 'always'],
         'brace-style': [WARN, '1tbs', { allowSingleLine: false }],
-        'camelcase': OFF,
+        camelcase: OFF,
         'comma-spacing': [WARN, { before: false, after: true }],
         'comma-style': [WARN, 'last'],
         'computed-property-spacing': [WARN, 'never'],
@@ -163,7 +163,7 @@ module.exports = exports = {
         'func-names': WARN,
         'func-style': [OFF, 'declaration'],
         'id-length': [WARN, { min: 2, max: 32 }],
-        'indent': [WARN, 4],
+        indent: [WARN, 4],
         'jsx-quotes': [WARN, 'prefer-double'],
         'linebreak-style': [WARN, 'unix'],
         'lines-around-comment': [WARN, { beforeBlockComment: true }],
@@ -195,7 +195,7 @@ module.exports = exports = {
         'operator-linebreak': [WARN, 'after'],
         'padded-blocks': [WARN, 'never'],
         'quote-props': [WARN, 'consistent-as-needed'],
-        'quotes': [WARN, 'single'],
+        quotes: [WARN, 'single'],
         'require-jsdoc': [
             WARN,
             {
@@ -207,7 +207,7 @@ module.exports = exports = {
             },
         ],
         'semi-spacing': [WARN, { before: false, after: true }],
-        'semi': [ERROR, 'always'],
+        semi: [ERROR, 'always'],
         'sort-vars': OFF,
         'keyword-spacing': [WARN, 1],
         'space-before-blocks': [WARN, 'always'],
@@ -220,4 +220,4 @@ module.exports = exports = {
         'spaced-comment': [WARN, 'always'],
         'wrap-regex': WARN,
     },
-};
+}
