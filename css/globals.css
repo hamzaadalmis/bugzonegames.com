@@ -130,6 +130,7 @@ picture {
     height: auto;
     border-style: none;
     font-style: italic;
+    text-transform: uppercase;
 }
 
 button,
