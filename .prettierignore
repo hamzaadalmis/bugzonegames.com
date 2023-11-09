@@ -1,6 +1,11 @@
-app-ads.txt
+# Default
 LICENSE
 README.md
+# CHANGELOG.md
+# CONTRIBUTING.md
+# CODE_OF_CONDUCT.md
+
+app-ads.txt
 robots.txt
 sellers.json
 sitemap.xml

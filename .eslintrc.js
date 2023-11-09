@@ -8,17 +8,14 @@ module.exports = exports = {
     },
 
     ecmaFeatures: {
-        // env=es6 doesn't include modules, which we are using
         modules: true,
     },
 
     extends: 'eslint:recommended',
 
     rules: {
-        // Possible Errors (overrides from recommended set)
         'no-extra-parens': ERROR,
         'no-unexpected-multiline': ERROR,
-        // All JSDoc comments must be valid
         'valid-jsdoc': [
             ERROR,
             {
@@ -30,10 +27,6 @@ module.exports = exports = {
                 },
             },
         ],
-
-        // Best Practices
-
-        // Allowed a getter without setter, but all setters require getters
         'accessor-pairs': [
             ERROR,
             {
@@ -45,7 +38,6 @@ module.exports = exports = {
         'consistent-return': ERROR,
         curly: ERROR,
         'default-case': WARN,
-        // the dot goes with the property when doing multiline
         'dot-location': [WARN, 'property'],
         'dot-notation': WARN,
         eqeqeq: [ERROR, 'smart'],
@@ -100,39 +92,29 @@ module.exports = exports = {
         'vars-on-top': ERROR,
         'wrap-iife': [ERROR, 'outside'],
         yoda: ERROR,
-
-        // Strict Mode - for ES6, never use strict.
         strict: [ERROR, 'never'],
-
-        // Variables
         'init-declarations': [ERROR, 'always'],
         'no-catch-shadow': WARN,
         'no-delete-var': ERROR,
         'no-label-var': ERROR,
         'no-shadow-restricted-names': ERROR,
         'no-shadow': WARN,
-        // We require all vars to be initialized (see init-declarations)
-        // If we NEED a var to be initialized to undefined, it needs to be explicit
         'no-undef-init': OFF,
         'no-undef': OFF,
         'no-undefined': OFF,
         'no-unused-vars': WARN,
-        // Disallow hoisting - let & const don't allow hoisting anyhow
         'no-use-before-define': ERROR,
 
-        // Node.js and CommonJS
         'callback-return': [WARN, ['callback', 'next']],
         'global-require': ERROR,
         'handle-callback-err': WARN,
         'no-mixed-requires': WARN,
         'no-new-require': ERROR,
-        // Use path.concat instead
         'no-path-concat': ERROR,
         'no-process-exit': ERROR,
         'no-restricted-modules': OFF,
         'no-sync': WARN,
 
-        // ECMAScript 6 support
         'arrow-body-style': [ERROR, 'always'],
         'arrow-parens': [ERROR, 'always'],
         'arrow-spacing': [ERROR, { before: true, after: true }],
@@ -150,7 +132,6 @@ module.exports = exports = {
         'prefer-template': WARN,
         'require-yield': ERROR,
 
-        // Stylistic - everything here is a warning because of style.
         'array-bracket-spacing': [OFF, 'always'],
         'block-spacing': [WARN, 'always'],
         'brace-style': [WARN, '1tbs', { allowSingleLine: false }],
