@@ -135,6 +135,7 @@ input,
 textarea {
     background: var(--bg-color);
     color: var(--clr-secondary-400);
+    caret-color: var(--clr-primary-400);
     border: 2px solid var(--clr-secondary-400);
     border-radius: 0;
     font-family: var(--primary-font);
