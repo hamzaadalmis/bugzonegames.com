@@ -1,1 +1,24 @@
-#/CHANGELOG.md merge=union
+# .gitattributes for default
+*          text=auto eol=lf
+
+# Documents
+*.md       text diff=markdown
+*.csv      text eol=crlf
+*.txt      text
+
+# Graphics
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.tif      binary
+*.tiff     binary
+*.ico      binary
+*.svg      text
+
+# Serialisation
+*.json     text
+*.toml     text
+*.xml      text
+*.yaml     text
+*.yml      text

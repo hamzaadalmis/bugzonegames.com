@@ -11,21 +11,31 @@ BugZone Games is an indie game studio based in Türkiye, founded in 2015. This i
 - [BugZone Games Web Site](#bugzone-games-web-site)
   - [Table of Contents](#table-of-contents)
   - [Contributing](#contributing)
+  - [Authors](#authors)
   - [Contributors](#contributors)
   - [Maintainers](#maintainers)
+  - [Support](#support)
   - [License](#license)
 
 ## Contributing
 
 PR's accepted. Feel free to contribute! [Open an issue](https://github.com/hamzaadalmis/bugzonegames.com/issues/new) or submit PRs.
 
-## Contributors
+## Authors
 
 [BugZone Games](https://bugzonegames.com)
+
+## Contributors
+
+See [Authors](Authors)
 
 ## Maintainers
 
 [@hamzaadalmis](https://github.com/hamzaadalmis)
+
+## Support
+
+For support, email to [support@bugzonegames.com](mailto:support@bugzonegames.com) or use GitHub Discussions.
 
 ## License
 

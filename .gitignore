@@ -1,9 +1,27 @@
 # .gitignore file
 
 # Operating system files
-Thumbs.db
 ~*
+._*
+.Trashes
+.Spotlight-V100
+.DS_Store
+.DS_Store?
+ehthumbs.db
 desktop.ini
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
 
 # Cache files
 .cache
@@ -21,17 +39,17 @@ pids
 *.seed
 *.pid.lock
 
-# Compiled binary addons
-build/
-build/r[R]elease
-bin/
-out/
+# Compiled binary directories
+[Bb]uild/
+[Bb]uild/[Rr]elease
+[Bb]in/
+[Oo]ut/
+[Dd]ist/
+[Dd]istribution
 
-# Dependency directories
+# Dependency files and directories
+.npm/
 node_modules/
-
-# Optional npm cache directory
-.npm
 package-lock.json
 
 # Optional REPL history
@@ -46,6 +64,7 @@ package-lock.json
 
 # IDE
 .vscode/
+.vs/
 
 # Netlify config files
 .netlify

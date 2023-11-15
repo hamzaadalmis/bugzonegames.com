@@ -1,10 +1,17 @@
-# Default
+# Default files and directories
+.github/
+.editorconfig
+.gitattributes
+.gitignore
+CHANGELOG.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+FUNDING.yml
+LEGAL.md
 LICENSE
 README.md
-# CHANGELOG.md
-# CONTRIBUTING.md
-# CODE_OF_CONDUCT.md
 
+# Website related files
 app-ads.txt
 robots.txt
 sellers.json
