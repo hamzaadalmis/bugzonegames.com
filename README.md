@@ -25,7 +25,7 @@ PR's accepted. Feel free to contribute! [Open an issue](https://github.com/hamza
 
 ## Maintainers
 
-[@hamzaadalmis](https://github.com/hamzaadalmis).
+[@hamzaadalmis](https://github.com/hamzaadalmis)
 
 ## License
 
