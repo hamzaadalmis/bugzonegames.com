@@ -27,7 +27,7 @@ PR's accepted. Feel free to contribute! [Open an issue](https://github.com/hamza
 
 ## Contributors
 
-See [Authors](Authors)
+See [Authors](##Authors)
 
 ## Maintainers
 
