@@ -21,7 +21,7 @@ PR's accepted. Feel free to contribute! [Open an issue](https://github.com/hamza
 
 ## Contributors
 
-BugZone Games
+[BugZone Games](https://bugzonegames.com)
 
 ## Maintainers
 
