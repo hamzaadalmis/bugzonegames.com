@@ -1,4 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700");
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Black.woff2") format("woff2"),
+        url("fonts/Montserrat-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Medium.woff2") format("woff2"),
+        url("fonts/Montserrat-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Regular.woff2") format("woff2"),
+        url("fonts/Montserrat-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 :root {
     --primary-font: "Montserrat", sans-serif;
